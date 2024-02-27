@@ -12,3 +12,5 @@ The files written for model implementation are as follows:
 dataAssist.py: This is the process of preprocessing the datasets used for training and evaluation through the dataMatrix class.
 rnn.py, LSTM.py : RNN/LSTM layer used for training the model is implemented in the files 'rnn.py', 'lstm.py'
 trainAssist.py : Using 'dataAssist.py' and 'LSTM.py', we implement the training process of the DKT model introduced in the paper mentioned at first. 
+
+To run the model, it is required to adjsut the 'root' variable in 'dataAssist.py', defined at line 8 with the address of csv.file.
